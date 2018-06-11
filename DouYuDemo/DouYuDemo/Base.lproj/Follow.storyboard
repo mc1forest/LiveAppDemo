@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Sh0-WC-qdF">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="SYC-pS-sFB">
+            <objects>
+                <viewController id="XWA-Me-66f" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Stb-wH-JSt">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="pxw-9I-pmH"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="4eR-hp-Xdy"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Wgg-Z8-DiK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="617" y="537"/>
+        </scene>
+        <!--Follow-->
+        <scene sceneID="5qs-RE-QC6">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Sh0-WC-qdF" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Follow" image="follow" selectedImage="follow_selected" id="8qL-yi-iIb"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Mvb-kd-105">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="XWA-Me-66f" kind="relationship" relationship="rootViewController" id="vYH-uv-RCc"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vBn-qs-K0w" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-879" y="537"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="follow" width="66" height="66"/>
+        <image name="follow_selected" width="66" height="66"/>
+    </resources>
+</document>

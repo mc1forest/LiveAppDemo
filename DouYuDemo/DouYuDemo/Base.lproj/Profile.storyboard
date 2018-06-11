@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="1NO-L8-ipi">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="U4Z-ja-iHS">
+            <objects>
+                <viewController id="V9F-z8-LMH" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rwN-ff-fGK">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="oYH-ka-GMe"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Pr4-7t-xgo"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="c6d-P9-AIb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="662" y="1274"/>
+        </scene>
+        <!--Profile-->
+        <scene sceneID="ojC-fh-Khn">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="1NO-L8-ipi" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Profile" image="love" selectedImage="love_selected" id="5MT-YL-gjo"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="NHC-kK-eJK">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="V9F-z8-LMH" kind="relationship" relationship="rootViewController" id="quo-rq-UFv"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vSV-uF-R2p" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-369" y="1275"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="love" width="66" height="66"/>
+        <image name="love_selected" width="66" height="66"/>
+    </resources>
+</document>
